@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
+//autoit
 public class UploadAutoITTest {
 
 	public static void main(String[] args) throws IOException {
@@ -18,8 +18,6 @@ public class UploadAutoITTest {
 		driver.get("https://www.naukri.com/");
 		
 		driver.findElement(By.id("wdgt-file-upload")).click();
-		
-		
 		
 		String absPath= new File("files/sg2upload.exe").getAbsolutePath();
 		System.out.println(absPath);
